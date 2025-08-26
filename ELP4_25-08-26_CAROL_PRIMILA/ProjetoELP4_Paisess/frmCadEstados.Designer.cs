@@ -42,11 +42,18 @@
             // btnSalvar
             // 
             this.btnSalvar.Location = new System.Drawing.Point(623, 415);
+            this.btnSalvar.TabIndex = 5;
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.TabIndex = 20;
+            this.txtCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnSair
             // 
             this.btnSair.Location = new System.Drawing.Point(704, 415);
             this.btnSair.Size = new System.Drawing.Size(84, 23);
+            this.btnSair.TabIndex = 6;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblEstado
@@ -61,7 +68,7 @@
             // lblUf
             // 
             this.lblUf.AutoSize = true;
-            this.lblUf.Location = new System.Drawing.Point(211, 9);
+            this.lblUf.Location = new System.Drawing.Point(287, 10);
             this.lblUf.Name = "lblUf";
             this.lblUf.Size = new System.Drawing.Size(25, 16);
             this.lblUf.TabIndex = 11;
@@ -69,22 +76,26 @@
             // 
             // txtEstado
             // 
+            this.txtEstado.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtEstado.Location = new System.Drawing.Point(100, 28);
+            this.txtEstado.MaxLength = 50;
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(96, 22);
-            this.txtEstado.TabIndex = 12;
+            this.txtEstado.Size = new System.Drawing.Size(184, 22);
+            this.txtEstado.TabIndex = 0;
             // 
             // txtUf
             // 
-            this.txtUf.Location = new System.Drawing.Point(214, 28);
+            this.txtUf.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtUf.Location = new System.Drawing.Point(290, 29);
+            this.txtUf.MaxLength = 2;
             this.txtUf.Name = "txtUf";
             this.txtUf.Size = new System.Drawing.Size(56, 22);
-            this.txtUf.TabIndex = 13;
+            this.txtUf.TabIndex = 1;
             // 
             // lblCodigoPais
             // 
             this.lblCodigoPais.AutoSize = true;
-            this.lblCodigoPais.Location = new System.Drawing.Point(291, 9);
+            this.lblCodigoPais.Location = new System.Drawing.Point(349, 10);
             this.lblCodigoPais.Name = "lblCodigoPais";
             this.lblCodigoPais.Size = new System.Drawing.Size(51, 16);
             this.lblCodigoPais.TabIndex = 14;
@@ -93,7 +104,7 @@
             // lblPais
             // 
             this.lblPais.AutoSize = true;
-            this.lblPais.Location = new System.Drawing.Point(377, 9);
+            this.lblPais.Location = new System.Drawing.Point(426, 9);
             this.lblPais.Name = "lblPais";
             this.lblPais.Size = new System.Drawing.Size(34, 16);
             this.lblPais.TabIndex = 15;
@@ -101,21 +112,25 @@
             // 
             // txtCodigoPais
             // 
-            this.txtCodigoPais.Location = new System.Drawing.Point(294, 28);
+            this.txtCodigoPais.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCodigoPais.Location = new System.Drawing.Point(352, 29);
             this.txtCodigoPais.Name = "txtCodigoPais";
             this.txtCodigoPais.Size = new System.Drawing.Size(69, 22);
-            this.txtCodigoPais.TabIndex = 16;
+            this.txtCodigoPais.TabIndex = 2;
+            this.txtCodigoPais.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtPais
             // 
-            this.txtPais.Location = new System.Drawing.Point(380, 28);
+            this.txtPais.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtPais.Location = new System.Drawing.Point(429, 29);
+            this.txtPais.MaxLength = 55;
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(100, 22);
-            this.txtPais.TabIndex = 17;
+            this.txtPais.TabIndex = 4;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(499, 28);
+            this.btnBuscar.Location = new System.Drawing.Point(535, 28);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 18;

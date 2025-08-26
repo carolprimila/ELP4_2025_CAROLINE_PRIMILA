@@ -28,6 +28,7 @@ namespace ProjetoELP4_Paisess
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             Salvar();
+            Sair();
         }
         public virtual void Salvar()
         {

@@ -31,6 +31,7 @@ namespace ProjetoELP4_Paisess
         {
             oFrmCadPaises.ConhecaObj(oPais, aCtrl);
             oFrmCadPaises.ShowDialog();
+
         }
         protected override void Alterar()
         {

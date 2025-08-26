@@ -41,6 +41,7 @@
             // txtCodigo
             // 
             this.txtCodigo.Location = new System.Drawing.Point(12, 28);
+            this.txtCodigo.TabIndex = 20;
             // 
             // btnSalvar
             // 
@@ -67,21 +68,21 @@
             this.txtDatCad.Location = new System.Drawing.Point(188, 416);
             this.txtDatCad.Name = "txtDatCad";
             this.txtDatCad.Size = new System.Drawing.Size(100, 22);
-            this.txtDatCad.TabIndex = 4;
+            this.txtDatCad.TabIndex = 17;
             // 
             // txtUltAlt
             // 
             this.txtUltAlt.Location = new System.Drawing.Point(321, 416);
             this.txtUltAlt.Name = "txtUltAlt";
             this.txtUltAlt.Size = new System.Drawing.Size(100, 22);
-            this.txtUltAlt.TabIndex = 5;
+            this.txtUltAlt.TabIndex = 18;
             // 
             // txtCodUsu
             // 
             this.txtCodUsu.Location = new System.Drawing.Point(449, 416);
             this.txtCodUsu.Name = "txtCodUsu";
             this.txtCodUsu.Size = new System.Drawing.Size(100, 22);
-            this.txtCodUsu.TabIndex = 6;
+            this.txtCodUsu.TabIndex = 19;
             // 
             // label1
             // 
