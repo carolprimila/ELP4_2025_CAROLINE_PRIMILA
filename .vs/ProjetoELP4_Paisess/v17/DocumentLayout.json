@@ -1,96 +1,92 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\",
+  "WorkspaceRootPath": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-01_carol_primila\\elp4_25-09-01_carol_primila\\projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-04_caroline_primila\\projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-04_caroline_primila\\projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-04_caroline_primila\\projetoelp4_paisess\\estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-04_caroline_primila\\projetoelp4_paisess\\cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|c:\\users\\cprim\\desktop\\elp4\\elp4_25-09-04_caroline_primila\\projetoelp4_paisess\\paises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\paises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cprim\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\pai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\pai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A3BF8A4-DC31-45B7-8ACD-A263EBE0CC59}|ProjetoELP4_Paisess\\ProjetoELP4_Paisess.csproj|solutionrelative:projetoelp4_paisess\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -101,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,46 +114,98 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "frmConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
+              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsultas.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsultas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:20:39.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Estados.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Estados.cs",
+              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Estados.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Estados.cs",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\Estados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:10:46.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cidades.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Cidades.cs",
+              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Cidades.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Cidades.cs",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\Cidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:08:21.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Paises.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Paises.cs",
+              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Paises.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Paises.cs",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\Paises.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:55:46.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cprim\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
               "ToolTip": "C:\\Users\\cprim\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\ConsultaProdutos\\ConsultaProdutos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T23:03:13.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "frmCadPaises.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadPaises.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\frmCadPaises.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T22:17:22.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Frm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Frm.cs",
               "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs [Design]",
+              "RelativeToolTip": "..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T18:14:23.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Program.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Program.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Program.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Program.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,57 +213,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "frmConsCidades.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsCidades.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsCidades.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:15:59.055Z"
+              "WhenOpened": "2025-08-27T22:15:59.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "frmConsCidades.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsCidades.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsCidades.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsCidades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:15:57.759Z"
+              "WhenOpened": "2025-08-27T22:15:57.759Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "frmConsEstados.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsEstados.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsEstados.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:14:02.196Z"
+              "WhenOpened": "2025-08-27T22:14:02.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "frmConsEstados.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsEstados.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsEstados.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsEstados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:14:00.22Z"
+              "WhenOpened": "2025-08-27T22:14:00.22Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "frmCadastros.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadastros.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\frmCadastros.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,92 +275,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "frmCadEstados.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadEstados.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\frmCadEstados.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T19:06:12.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FrmConsPaises.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\FrmConsPaises.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\FrmConsPaises.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA7wC0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T19:03:59.801Z"
+              "WhenOpened": "2025-08-26T19:03:59.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FrmConsPaises.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\FrmConsPaises.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\FrmConsPaises.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\FrmConsPaises.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T19:03:43.201Z"
+              "WhenOpened": "2025-08-26T19:03:43.201Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "frmCadEstados.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadEstados.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadEstados.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmCadEstados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T18:22:32.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "frmCadastros.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadastros.cs",
               "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs [Design]",
+              "RelativeToolTip": "..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadastros.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T18:21:51.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Pai.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Pai.cs",
-              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Pai.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Pai.cs",
-              "RelativeToolTip": "ProjetoELP4_Paisess\\Pai.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:21:43.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Interfaces.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Interfaces.cs",
-              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Interfaces.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Interfaces.cs",
-              "RelativeToolTip": "ProjetoELP4_Paisess\\Interfaces.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:19:45.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "Frm.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\Frm.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\Frm.cs",
               "RelativeToolTip": "ProjetoELP4_Paisess\\Frm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,69 +346,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "frmConsultas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsultas.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsultas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T11:40:44.158Z"
+              "WhenOpened": "2025-08-26T11:40:44.158Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmCadPaises.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadPaises.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs [Design]",
-              "RelativeToolTip": "..\\..\\ELP4_25-08-27_CAROL_PRIMILA\\ELP4_25-08-27_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs [Design]",
+              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadPaises.cs [Design]",
+              "RelativeToolTip": "ProjetoELP4_Paisess\\frmCadPaises.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T11:26:12.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "RelativeToolTip": "ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T22:12:29.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmConsultas.cs",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
-              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmConsultas.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmConsultas.cs",
-              "RelativeToolTip": "ProjetoELP4_Paisess\\frmConsultas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T23:15:51.119Z"
+              "WhenOpened": "2025-08-26T11:26:12.224Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "frmPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\cprim\\Desktop\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmPrincipal.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T22:11:34.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "frmCadCidades.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-01_CAROL_PRIMILA\\ELP4_25-09-01_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadCidades.cs",
+              "DocumentMoniker": "C:\\Users\\cprim\\Desktop\\ELP4\\ELP4_25-09-04_CAROLINE_PRIMILA\\ProjetoELP4_Paisess\\frmCadCidades.cs",
               "RelativeDocumentMoniker": "ProjetoELP4_Paisess\\frmCadCidades.cs",
               "ToolTip": "C:\\Users\\cprim\\Desktop\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadCidades.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadCidades.cs [Design]",
+              "RelativeToolTip": "..\\..\\projetos github\\ELP4_25-08-26_CAROL_PRIMILA\\ProjetoELP4_Paisess\\frmCadCidades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T22:11:26.667Z"
             }

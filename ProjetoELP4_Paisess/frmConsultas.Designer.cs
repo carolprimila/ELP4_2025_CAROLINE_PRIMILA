@@ -32,7 +32,8 @@
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnIncluir = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.ListV = new System.Windows.Forms.ListView();
+            this.colCodigo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // txtCodigo
@@ -83,20 +84,29 @@
             this.btnPesquisar.UseVisualStyleBackColor = true;
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // listBox1
+            // ListV
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 40);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 356);
-            this.listBox1.TabIndex = 6;
+            this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colCodigo});
+            this.ListV.FullRowSelect = true;
+            this.ListV.GridLines = true;
+            this.ListV.HideSelection = false;
+            this.ListV.Location = new System.Drawing.Point(12, 49);
+            this.ListV.Name = "ListV";
+            this.ListV.Size = new System.Drawing.Size(776, 360);
+            this.ListV.TabIndex = 6;
+            this.ListV.UseCompatibleStateImageBehavior = false;
+            this.ListV.View = System.Windows.Forms.View.Details;
+            // 
+            // colCodigo
+            // 
+            this.colCodigo.Text = "Código";
             // 
             // frmConsultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.ListV);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnIncluir);
             this.Controls.Add(this.btnAlterar);
@@ -108,7 +118,7 @@
             this.Controls.SetChildIndex(this.btnAlterar, 0);
             this.Controls.SetChildIndex(this.btnIncluir, 0);
             this.Controls.SetChildIndex(this.btnPesquisar, 0);
-            this.Controls.SetChildIndex(this.listBox1, 0);
+            this.Controls.SetChildIndex(this.ListV, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,6 +129,7 @@
         protected System.Windows.Forms.Button btnAlterar;
         protected System.Windows.Forms.Button btnExcluir;
         protected System.Windows.Forms.Button btnPesquisar;
-        private System.Windows.Forms.ListBox listBox1;
+        protected System.Windows.Forms.ListView ListV;
+        protected System.Windows.Forms.ColumnHeader colCodigo;
     }
 }

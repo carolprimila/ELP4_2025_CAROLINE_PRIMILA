@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.colEstado = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colUf = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colCodPais = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colPais = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btnIncluir
@@ -42,10 +46,36 @@
             // 
             this.btnExcluir.Location = new System.Drawing.Point(612, 415);
             // 
+            // ListV
+            // 
+            this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colEstado,
+            this.colUf,
+            this.colCodPais,
+            this.colPais});
+            // 
             // btnSair
             // 
             this.btnSair.Location = new System.Drawing.Point(693, 415);
             this.btnSair.Size = new System.Drawing.Size(95, 23);
+            // 
+            // colEstado
+            // 
+            this.colEstado.Text = "Estado";
+            // 
+            // colUf
+            // 
+            this.colUf.Text = "UF";
+            // 
+            // colCodPais
+            // 
+            this.colCodPais.Text = "Código País";
+            this.colCodPais.Width = 125;
+            // 
+            // colPais
+            // 
+            this.colPais.Text = "País";
+            this.colPais.Width = 200;
             // 
             // frmConsEstados
             // 
@@ -59,5 +89,10 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ColumnHeader colEstado;
+        private System.Windows.Forms.ColumnHeader colUf;
+        private System.Windows.Forms.ColumnHeader colCodPais;
+        private System.Windows.Forms.ColumnHeader colPais;
     }
 }

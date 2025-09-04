@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.colPais = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSigla = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDdi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colMoeda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btnIncluir
@@ -43,22 +47,52 @@
             // 
             this.btnExcluir.Location = new System.Drawing.Point(616, 415);
             // 
+            // ListV
+            // 
+            this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colPais,
+            this.colSigla,
+            this.colDdi,
+            this.colMoeda});
+            // 
             // btnSair
             // 
             this.btnSair.Location = new System.Drawing.Point(697, 415);
             this.btnSair.Size = new System.Drawing.Size(91, 23);
+            // 
+            // colPais
+            // 
+            this.colPais.Text = "País";
+            this.colPais.Width = 200;
+            // 
+            // colSigla
+            // 
+            this.colSigla.Text = "Sigla";
+            // 
+            // colDdi
+            // 
+            this.colDdi.Text = "DDI";
+            // 
+            // colMoeda
+            // 
+            this.colMoeda.Text = "Moeda";
             // 
             // FrmConsPaises
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "FrmConsPaises";
-            this.Text = "Consulta de Paises";
+            this.Text = "Consulta de Países";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.ColumnHeader colPais;
+        private System.Windows.Forms.ColumnHeader colSigla;
+        private System.Windows.Forms.ColumnHeader colDdi;
+        private System.Windows.Forms.ColumnHeader colMoeda;
     }
 }

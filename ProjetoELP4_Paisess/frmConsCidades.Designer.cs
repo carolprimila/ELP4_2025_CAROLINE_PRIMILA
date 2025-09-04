@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.colCidade = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDdd = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colCodEstado = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colEstado = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btnIncluir
@@ -42,10 +46,37 @@
             // 
             this.btnExcluir.Location = new System.Drawing.Point(616, 415);
             // 
+            // ListV
+            // 
+            this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colCidade,
+            this.colDdd,
+            this.colCodEstado,
+            this.colEstado});
+            // 
             // btnSair
             // 
             this.btnSair.Location = new System.Drawing.Point(697, 415);
             this.btnSair.Size = new System.Drawing.Size(91, 23);
+            // 
+            // colCidade
+            // 
+            this.colCidade.Text = "Cidade";
+            this.colCidade.Width = 200;
+            // 
+            // colDdd
+            // 
+            this.colDdd.Text = "DDD";
+            // 
+            // colCodEstado
+            // 
+            this.colCodEstado.Text = "Código Estado";
+            this.colCodEstado.Width = 125;
+            // 
+            // colEstado
+            // 
+            this.colEstado.Text = "Estado";
+            this.colEstado.Width = 200;
             // 
             // frmConsCidades
             // 
@@ -59,5 +90,10 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ColumnHeader colCidade;
+        private System.Windows.Forms.ColumnHeader colDdd;
+        private System.Windows.Forms.ColumnHeader colCodEstado;
+        private System.Windows.Forms.ColumnHeader colEstado;
     }
 }

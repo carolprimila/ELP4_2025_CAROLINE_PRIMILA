@@ -18,6 +18,10 @@ namespace ProjetoELP4_Paisess
         {
             
         }
+        protected virtual void CarregaLV()
+        {
+
+        }
         protected virtual void Incluir()
         {
             

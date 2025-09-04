@@ -46,6 +46,15 @@ namespace ProjetoELP4_Paisess
             oFrmCadCidades.CarregaTxt();
             oFrmCadCidades.ShowDialog();
         }
+        protected override void CarregaLV()
+        {
+            ListViewItem item = new ListViewItem(Convert.ToString(oCidade.Codigo));
+            item.SubItems.Add(oCidade.Cidade);
+            item.SubItems.Add(oCidade.Ddd);
+            item.SubItems.Add(Convert.ToString(oCidade.OEstado.Codigo));
+            item.SubItems.Add(oCidade.OEstado.Estado);
+            ListV.Items.Add(item);
+        }
         public override void SetFrmCadastro(object obj)
         {
             if (obj != null)
