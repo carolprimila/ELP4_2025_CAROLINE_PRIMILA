@@ -12,7 +12,8 @@ namespace ProjetoELP4_Paisess
     {
         frmCadCidades oFrmCadCidades;
         Cidades oCidade;
-        Controller aCtrl;
+        //Controller aCtrl;
+        CtrlCidades aCtrlCidades;
         public frmConsCidades()
         {
             InitializeComponent();
@@ -23,14 +24,15 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Incluir()
         {
-            oFrmCadCidades.ConhecaObj(oCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.ShowDialog();
+            this.CarregaLV();
         }
         protected override void Excluir()
         {
             string aux;
-            oFrmCadCidades.ConhecaObj(oCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.BloquearTxt(); 
             aux = oFrmCadCidades.btnSalvar.Text;
@@ -41,19 +43,22 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Alterar()
         {
-            oFrmCadCidades.ConhecaObj(oCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.CarregaTxt();
             oFrmCadCidades.ShowDialog();
         }
         protected override void CarregaLV()
         {
-            ListViewItem item = new ListViewItem(Convert.ToString(oCidade.Codigo));
-            item.SubItems.Add(oCidade.Cidade);
-            item.SubItems.Add(oCidade.Ddd);
-            item.SubItems.Add(Convert.ToString(oCidade.OEstado.Codigo));
-            item.SubItems.Add(oCidade.OEstado.Estado);
-            ListV.Items.Add(item);
+            foreach (var oCidade in CtrlCidades.TodosCidades)
+            {
+                ListViewItem item = new ListViewItem(Convert.ToString(oCidade.Codigo));
+                item.SubItems.Add(oCidade.Cidade);
+                item.SubItems.Add(oCidade.Ddd);
+                item.SubItems.Add(Convert.ToString(oCidade.OEstado.Codigo));
+                item.SubItems.Add(oCidade.OEstado.Estado);
+                ListV.Items.Add(item);
+            }
         }
         public override void SetFrmCadastro(object obj)
         {
@@ -65,7 +70,7 @@ namespace ProjetoELP4_Paisess
             if (obj != null)
                 oCidade = (Cidades)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlCidades = (CtrlCidades)ctrl;
         }
     }
 }

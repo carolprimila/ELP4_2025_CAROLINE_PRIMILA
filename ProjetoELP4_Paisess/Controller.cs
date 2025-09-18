@@ -11,5 +11,9 @@ namespace ProjetoELP4_Paisess
         public Controller() 
         {
         }
+        public virtual void Salvar(object obj)
+        {
+
+        }
     }
 }

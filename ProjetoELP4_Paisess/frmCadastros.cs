@@ -51,5 +51,9 @@ namespace ProjetoELP4_Paisess
 
         }
 
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

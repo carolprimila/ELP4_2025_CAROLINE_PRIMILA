@@ -20,7 +20,8 @@ namespace ProjetoELP4_Paisess
             ddi = string.Empty;
             moeda = string.Empty;
         }
-        public Paises(int codigo, DateTime datcad, DateTime ultalt, string pais, string sigla, string ddi, string moeda) 
+        public Paises(int codigo, DateTime datcad, DateTime ultalt, string pais, string sigla,
+            string ddi, string moeda) 
             : base(codigo, datcad, ultalt)
         {
             this.pais = pais;
@@ -28,6 +29,12 @@ namespace ProjetoELP4_Paisess
             this.ddi = ddi;
             this.moeda = moeda;
         }
+        public Paises Clone()
+        {
+            return new Paises(this.codigo, this.datcad, this.ultalt, this.pais, this.sigla,
+                this.ddi, this.moeda);
+        }
+
         public string Pais
         {
             get => pais;

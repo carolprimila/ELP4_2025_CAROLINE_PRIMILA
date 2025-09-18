@@ -43,6 +43,10 @@
             this.txtCodigo.Location = new System.Drawing.Point(12, 28);
             this.txtCodigo.TabIndex = 20;
             // 
+            // btnSair
+            // 
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // btnSalvar
             // 
             this.btnSalvar.Location = new System.Drawing.Point(632, 415);

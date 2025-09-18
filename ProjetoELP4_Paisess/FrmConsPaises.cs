@@ -12,7 +12,8 @@ namespace ProjetoELP4_Paisess
     {
         frmCadPaises oFrmCadPaises;
         Paises oPais;
-        Controller aCtrl;
+        //Controller aCtrl;
+        CtrlPaises aCtrlPaises;
         public FrmConsPaises()
         {
             InitializeComponent();
@@ -24,14 +25,14 @@ namespace ProjetoELP4_Paisess
         protected override void Incluir()
         {
             oFrmCadPaises.LimpaTxt();
-            oFrmCadPaises.ConhecaObj(oPais, aCtrl);
+            oFrmCadPaises.ConhecaObj(oPais, aCtrlPaises);
             oFrmCadPaises.ShowDialog();
             this.CarregaLV();
         }
         protected override void Excluir()
         {
             string aux;
-            oFrmCadPaises.ConhecaObj(oPais, aCtrl);
+            oFrmCadPaises.ConhecaObj(oPais, aCtrlPaises);
             oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.BloquearTxt();
             aux = oFrmCadPaises.btnSalvar.Text;
@@ -42,19 +43,22 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Alterar()
         {
-            oFrmCadPaises.ConhecaObj(oPais, aCtrl);
+            oFrmCadPaises.ConhecaObj(oPais, aCtrlPaises);
             oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.CarregaTxt();
             oFrmCadPaises.ShowDialog();
         }
         protected override void CarregaLV()
         {
-            ListViewItem item = new ListViewItem(Convert.ToString(oPais.Codigo));
-            item.SubItems.Add(oPais.Pais);
-            item.SubItems.Add(oPais.Sigla);
-            item.SubItems.Add(oPais.Ddi);
-            item.SubItems.Add(oPais.Moeda);
-            ListV.Items.Add(item);
+            foreach (var oPais in CtrlPaises.TodosPaises)
+            {
+                ListViewItem item = new ListViewItem(Convert.ToString(oPais.Codigo));
+                item.SubItems.Add(oPais.Pais);
+                item.SubItems.Add(oPais.Sigla);
+                item.SubItems.Add(oPais.Ddi);
+                item.SubItems.Add(oPais.Moeda);
+                ListV.Items.Add(item);
+            }
         }
         public override void SetFrmCadastro(object obj)
         {
@@ -66,7 +70,7 @@ namespace ProjetoELP4_Paisess
             if (obj != null)
                 oPais = (Paises)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlPaises = (CtrlPaises)ctrl;
         }
 
         private void btnAlterar_Click(object sender, EventArgs e)

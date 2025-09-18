@@ -19,12 +19,18 @@ namespace ProjetoELP4_Paisess
             ddd = string.Empty;
             oEstado = new Estados();
         }
-        public Cidades(int codigo, DateTime datcad, DateTime ultalt, string cidade, string ddd, Estados oEstado)
+        public Cidades(int codigo, DateTime datcad, DateTime ultalt, string cidade, string ddd,
+            Estados oEstado)
             : base(codigo, datcad, ultalt)
         {
             this.cidade = cidade;
             this.ddd = ddd;
             this.oEstado = oEstado;
+        }
+        public Cidades Clone()
+        {
+            return new Cidades(this.codigo, this.datcad, this.ultalt, this.cidade, this.ddd,
+                this.oEstado);
         }
         public string Cidade
         {
