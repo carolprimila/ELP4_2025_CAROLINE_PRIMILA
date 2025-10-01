@@ -42,6 +42,17 @@ namespace ProjetoELP4_Paisess
             }
             return null;
         }
+        public Paises BuscarPorDdi(string ddi)
+        {
+            foreach (var opais in aLista)
+            {
+                if (opais.Ddi.Equals(ddi, StringComparison.OrdinalIgnoreCase))
+                {
+                    return opais;
+                }
+            }
+            return null;
+        }
         public override void Imprimir()
         {
             foreach (var oPais in aLista)
