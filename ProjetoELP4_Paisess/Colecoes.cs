@@ -33,14 +33,14 @@ namespace ProjetoELP4_Paisess
             {
                 return aLista[ind];
             }
-            throw new ArgumentOutOfRangeException("Indice fora do intervalo da");
+            throw new ArgumentOutOfRangeException("Indice fora do intervalo da lista");
         }
         public virtual void Atualizar(int ind, T item)
         {
             if (ind >= 0 && ind < aLista.Count)
                 aLista[ind] = item;
             else
-                throw new ArgumentOutOfRangeException("Indexe fora do intervalo d ");
+                throw new ArgumentOutOfRangeException("Indexe fora do intervalo da lista");
         }
         public virtual int Tamanho()
         {
@@ -54,6 +54,10 @@ namespace ProjetoELP4_Paisess
         public virtual void Ordenar()
         {
             aLista.Sort();
+        }
+        public List<T> RetornaLista()
+        {
+            return aLista;
         }
     }
 }

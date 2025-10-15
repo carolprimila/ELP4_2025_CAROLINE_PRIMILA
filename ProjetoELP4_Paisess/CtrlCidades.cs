@@ -9,22 +9,20 @@ namespace ProjetoELP4_Paisess
     internal class CtrlCidades : Controller
     {
         ColCidades aColCidades;
+        DaoCidades aDaoCidades;
         public CtrlCidades()
         {
             aColCidades = new ColCidades();
+            aDaoCidades = new DaoCidades();
         }
-        public override void Salvar(object obj)
+        public override string Salvar(object obj)
         {
             //base.Salvar(obj);
-            Cidades oCidade = (Cidades)obj;
-            if (oCidade.Codigo == 0)
-            {
-                aColCidades.Inserir((Cidades)obj);
-            }
-            else
-            {
-
-            }
+            return aDaoCidades.Salvar(obj);
+        }
+        public List<Cidades> TodosCidades()
+        {
+            return aColCidades.RetornaLista();
         }
     }
 }

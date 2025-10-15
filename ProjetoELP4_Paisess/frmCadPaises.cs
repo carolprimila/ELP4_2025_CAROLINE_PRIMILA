@@ -11,7 +11,8 @@ namespace ProjetoELP4_Paisess
     public partial class frmCadPaises : ProjetoELP4_Paisess.frmCadastros
     {
         Paises oPais;
-        Controller aCtrl;
+        //Controller aCtrl;
+        CtrlPaises aCtrlPaises;
         public frmCadPaises()
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace ProjetoELP4_Paisess
             if (obj != null)
                 oPais = (Paises)obj;
             if (ctrl != null )
-                aCtrl = (Controller)ctrl;
+                aCtrlPaises = (CtrlPaises)ctrl;
         }
         public override void Salvar()
         {
@@ -33,7 +34,7 @@ namespace ProjetoELP4_Paisess
             oPais.Sigla = txtSigla.Text;
             oPais.Ddi = txtDDI.Text;
             oPais.Moeda = txtMoeda.Text;
-            //aCtrl.Salvar(oPais);
+            MessageBox.Show(aCtrlPaises.Salvar(oPais));
         }
         public override void CarregaTxt()
         {

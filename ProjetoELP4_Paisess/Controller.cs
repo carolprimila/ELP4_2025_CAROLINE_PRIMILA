@@ -11,9 +11,25 @@ namespace ProjetoELP4_Paisess
         public Controller() 
         {
         }
-        public virtual void Salvar(object obj)
+        public virtual string Excluir(object obj)
         {
-
+            return null;
+        }
+        public virtual string Salvar(object obj)
+        {
+            return null;
+        }
+        public virtual List<object> Listar()
+        {
+            return null;
+        }
+        public virtual Object CarregaObj(int chave)
+        {
+            return null;
+        }
+        public virtual List<object> Pesquisar(string chave)
+        {
+            return null;
         }
     }
 }

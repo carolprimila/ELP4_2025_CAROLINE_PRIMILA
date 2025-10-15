@@ -8,28 +8,21 @@ namespace ProjetoELP4_Paisess
 {
     internal class CtrlPaises : Controller
     {
-        //ColPaises aColPaises;
-        private static ColPaises aColPaises = new ColPaises();
+        ColPaises aColPaises;
+        DaoPaises aDaoPaises;
         public CtrlPaises()
         {
             aColPaises = new ColPaises();
+            aDaoPaises = new DaoPaises();
         }
-        public override void Salvar(object obj)
+        public override string Salvar(object obj)
         {
             //base.Salvar(obj);
-            Paises oPais = (Paises)obj;
-            if (oPais.Codigo == 0)
-            {
-                aColPaises.Inserir((Paises)obj);
-            }
-            else
-            {
-
-            }
+            return  aDaoPaises.Salvar(obj);
         }
-        public static List<Paises> TodosPaises
+        public List<Paises> TodosPaises()
         {
-            get { return aColPaises.Todos(); }
+            return aColPaises.RetornaLista();
         }
     }
 }

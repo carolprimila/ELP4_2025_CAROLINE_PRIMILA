@@ -50,7 +50,7 @@ namespace ProjetoELP4_Paisess
         }
         protected override void CarregaLV()
         {
-            foreach (var oEstado in CtrlEstados.TodosEstados)
+            foreach (var oEstado in CtrlEstados.TodosEstados())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
                 item.SubItems.Add(oEstado.Estado);

@@ -9,22 +9,20 @@ namespace ProjetoELP4_Paisess
     internal class CtrlEstados : Controller
     {
         ColEstados aColEstados;
+        DaoEstados aDaoEstados;
         public CtrlEstados()
         {
             aColEstados = new ColEstados();
+            aDaoEstados = new DaoEstados();
         }
-        public override void Salvar(object obj)
+        public override string Salvar(object obj)
         {
             //base.Salvar(obj);
-            Estados oEstado = (Estados)obj;
-            if (oEstado.Codigo == 0)
-            {
-                aColEstados.Inserir((Estados)obj);
-            }
-            else
-            {
-
-            }
+            return aDaoEstados.Salvar(obj);
+        }
+        public List<Estados> TodosEstados()
+        {
+            return aColEstados.RetornaLista();
         }
     }
 }
