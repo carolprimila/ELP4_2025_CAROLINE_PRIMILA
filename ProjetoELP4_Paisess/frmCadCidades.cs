@@ -11,10 +11,12 @@ namespace ProjetoELP4_Paisess
     public partial class frmCadCidades : ProjetoELP4_Paisess.frmCadastros
     {
         Cidades oCidade; 
-        Controller aCtrl;
+        CtrlCidades aCtrlCidades;
+        CtrlEstados aCtrlEstados;
         frmConsEstados ofrmConsEstados;
         public frmCadCidades()
         {
+            aCtrlEstados = new CtrlEstados();
             InitializeComponent();
         }
         public void setFrmConsEstados(Object obj)
@@ -29,16 +31,17 @@ namespace ProjetoELP4_Paisess
             if (obj != null)
               oCidade = (Cidades)obj;
             if (ctrl != null)
-              aCtrl = (Controller)ctrl;
+              aCtrlCidades = (CtrlCidades)ctrl;
         }
 
         public override void Salvar()
         {
-            //if (MessageDlg("Confirma (S/N)") == "S")
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDDD.Text;
-            //aCtrl.Salvar(oCidade);
+            oCidade.OEstado.Codigo = Convert.ToInt32(txtCodigoEstado.Text);
+            aCtrlEstados.Salvar(oCidade);
+            MessageBox.Show(aCtrlCidades.Salvar(oCidade));
         }
         public override void CarregaTxt()
         {
@@ -67,7 +70,7 @@ namespace ProjetoELP4_Paisess
         {
             string btnSair = ofrmConsEstados.btnSair.Text;
             ofrmConsEstados.btnSair.Text = "Selecionar";
-            ofrmConsEstados.ConhecaObj(oCidade.OEstado, aCtrl);
+            ofrmConsEstados.ConhecaObj(oCidade.OEstado, aCtrlEstados);
             ofrmConsEstados.ShowDialog();
             this.txtCodigoEstado.Text = Convert.ToString(oCidade.OEstado.Codigo);
             this.txtEstado.Text = oCidade.OEstado.Estado.ToString();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoELP4_Paisess
 {
-    internal class DAO
+    internal class DAO<T>
     {
         protected SqlConnection cnn;
         public DAO() 
@@ -22,7 +22,7 @@ namespace ProjetoELP4_Paisess
         {
             return null;
         }
-        public virtual List<object> Listar()
+        public virtual List<T> Listar()
         {
             return null;
         }
@@ -30,7 +30,7 @@ namespace ProjetoELP4_Paisess
         {
             return null;
         }
-        public virtual List<object> Pesquisar(string chave)
+        public virtual List<T> Pesquisar(string chave)
         {
             return null;
         }

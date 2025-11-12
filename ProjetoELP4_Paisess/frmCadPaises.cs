@@ -16,8 +16,7 @@ namespace ProjetoELP4_Paisess
         public frmCadPaises()
         {
             InitializeComponent();
-            oPais = new Paises();
-            //
+            //oPais = new Paises();
         }
         public override void ConhecaObj(object obj, object ctrl)
         {
@@ -34,6 +33,7 @@ namespace ProjetoELP4_Paisess
             oPais.Sigla = txtSigla.Text;
             oPais.Ddi = txtDDI.Text;
             oPais.Moeda = txtMoeda.Text;
+            this.Close();
             MessageBox.Show(aCtrlPaises.Salvar(oPais));
         }
         public override void CarregaTxt()
@@ -70,6 +70,11 @@ namespace ProjetoELP4_Paisess
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

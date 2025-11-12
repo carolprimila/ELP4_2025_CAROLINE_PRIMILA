@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace ProjetoELP4_Paisess
@@ -11,12 +6,13 @@ namespace ProjetoELP4_Paisess
     public partial class frmCadEstados : ProjetoELP4_Paisess.frmCadastros
     {
         Estados oEstado;
-        Controller aCtrl;
+        CtrlEstados aCtrlEstados;
+        CtrlPaises aCtrlPaises;
         FrmConsPaises ofrmConsPaises;
         public frmCadEstados()
         {
+            aCtrlPaises = new CtrlPaises();
             InitializeComponent();
-            
         }
         public void setFrmConsPaises(Object obj) 
         {
@@ -30,7 +26,7 @@ namespace ProjetoELP4_Paisess
             if (obj != null)
                 oEstado = (Estados)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlEstados = (CtrlEstados)ctrl;
         }
 
         public override void Salvar()
@@ -39,7 +35,9 @@ namespace ProjetoELP4_Paisess
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
-            //aCtrl.Salvar(oEstado);
+            oEstado.OPais.Codigo = Convert.ToInt32(txtCodigoPais.Text);
+            //aCtrlEstados.Salvar(oEstado);
+            MessageBox.Show(aCtrlEstados.Salvar(oEstado));
         }
 
         public override void CarregaTxt()
@@ -74,7 +72,7 @@ namespace ProjetoELP4_Paisess
         {
             string btnSair = ofrmConsPaises.btnSair.Text;
             ofrmConsPaises.btnSair.Text = "Selecionar";
-            ofrmConsPaises.ConhecaObj(oEstado.OPais, aCtrl);
+            ofrmConsPaises.ConhecaObj(oEstado.OPais, aCtrlPaises);
             ofrmConsPaises.ShowDialog();
             this.txtCodigoPais.Text = Convert.ToString(oEstado.OPais.Codigo);
             this.txtPais.Text = oEstado.OPais.Pais.ToString();

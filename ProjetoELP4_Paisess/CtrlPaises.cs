@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoELP4_Paisess
 {
-    internal class CtrlPaises : Controller
+    internal class CtrlPaises : Controller<Paises>
     {
         ColPaises aColPaises;
         DaoPaises aDaoPaises;
@@ -18,11 +18,19 @@ namespace ProjetoELP4_Paisess
         public override string Salvar(object obj)
         {
             //base.Salvar(obj);
-            return  aDaoPaises.Salvar(obj);
+            return aDaoPaises.Salvar(obj);
         }
         public List<Paises> TodosPaises()
         {
-            return aColPaises.RetornaLista();
+            return aDaoPaises.Listar();
+        }
+        public override string Excluir(object obj)
+        {
+            return aDaoPaises.Excluir(obj);
+        }
+        public override List<Paises> Pesquisar(string chave)
+        {
+            return aDaoPaises.Pesquisar(chave);
         }
     }
 }

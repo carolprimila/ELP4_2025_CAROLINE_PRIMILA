@@ -20,26 +20,62 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Pesquisar()
         {
+            ListV.Items.Clear();
+            List<Estados> lista = aCtrlEstados.Pesquisar(txtCodigo.Text);
 
+            foreach (var oEstado in lista)
+            {
+                ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
+                item.SubItems.Add(oEstado.Estado);
+                item.SubItems.Add(oEstado.Uf);
+                item.SubItems.Add(Convert.ToString(oEstado.OPais.Codigo));
+                item.SubItems.Add(oEstado.OPais.Pais);
+                ListV.Items.Add(item);
+            }
         }
         protected override void Incluir()
         {
-            oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
+            oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.ShowDialog();
             this.CarregaLV();
         }
         protected override void Excluir()
         {
-            string aux;
-            oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
-            oFrmCadEstados.LimpaTxt();
-            oFrmCadEstados.BloquearTxt();
-            aux = oFrmCadEstados.btnSalvar.Text;
-            oFrmCadEstados.btnSalvar.Text = "Excluir";
-            oFrmCadEstados.ShowDialog();
-            oFrmCadEstados.DesbloquearTxt();
-            oFrmCadEstados.btnSalvar.Text = aux;
+            if (ListV.SelectedItems.Count == 0)
+            {
+                return;
+            }
+
+            // Pega o id do item selecionado
+            ListViewItem item = ListV.SelectedItems[0];
+            int id = Convert.ToInt32(item.SubItems[0].Text);
+
+            DialogResult confirm = MessageBox.Show(
+                "Deseja realmente excluir este estado?",
+                "Confirmação",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (confirm == DialogResult.Yes)
+            {
+                Estados oEstado = new Estados();
+                oEstado.Codigo = id;
+
+                string msg = aCtrlEstados.Excluir(oEstado);
+                MessageBox.Show(msg);
+                CarregaLV();
+            }
+            //string aux;
+            //oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
+            //oFrmCadEstados.LimpaTxt();
+            //oFrmCadEstados.BloquearTxt();
+            //aux = oFrmCadEstados.btnSalvar.Text;
+            //oFrmCadEstados.btnSalvar.Text = "Excluir";
+            //oFrmCadEstados.ShowDialog();
+            //oFrmCadEstados.DesbloquearTxt();
+            //oFrmCadEstados.btnSalvar.Text = aux;
         }
         protected override void Alterar()
         {
@@ -49,8 +85,9 @@ namespace ProjetoELP4_Paisess
             oFrmCadEstados.ShowDialog();
         }
         protected override void CarregaLV()
-        {
-            foreach (var oEstado in CtrlEstados.TodosEstados())
+        { 
+            ListV.Items.Clear();
+            foreach (var oEstado in aCtrlEstados.TodosEstados())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
                 item.SubItems.Add(oEstado.Estado);
@@ -71,6 +108,7 @@ namespace ProjetoELP4_Paisess
                 oEstado = (Estados)obj;
             if (ctrl != null)
                 aCtrlEstados = (CtrlEstados)ctrl;
+            this.CarregaLV();
         }
     }
 }

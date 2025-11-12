@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoELP4_Paisess
 {
-    internal class CtrlCidades : Controller
+    internal class CtrlCidades : Controller<Cidades>
     {
         ColCidades aColCidades;
         DaoCidades aDaoCidades;
@@ -22,7 +22,15 @@ namespace ProjetoELP4_Paisess
         }
         public List<Cidades> TodosCidades()
         {
-            return aColCidades.RetornaLista();
+            return aDaoCidades.Listar();
+        }
+        public override string Excluir(object obj)
+        {
+            return aDaoCidades.Excluir(obj);
+        }
+        public override List<Cidades> Pesquisar(string chave)
+        {
+            return aDaoCidades.Pesquisar(chave);
         }
     }
 }

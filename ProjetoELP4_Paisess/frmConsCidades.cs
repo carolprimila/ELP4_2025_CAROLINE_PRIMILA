@@ -20,7 +20,18 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Pesquisar()
         {
+            ListV.Items.Clear();
+            List<Cidades> lista = aCtrlCidades.Pesquisar(txtCodigo.Text);
 
+            foreach (var oCidade in lista)
+            {
+                ListViewItem item = new ListViewItem(Convert.ToString(oCidade.Codigo));
+                item.SubItems.Add(oCidade.Cidade);
+                item.SubItems.Add(oCidade.Ddd);
+                item.SubItems.Add(Convert.ToString(oCidade.OEstado.Codigo));
+                item.SubItems.Add(oCidade.OEstado.Estado);
+                ListV.Items.Add(item);
+            }
         }
         protected override void Incluir()
         {
@@ -31,15 +42,40 @@ namespace ProjetoELP4_Paisess
         }
         protected override void Excluir()
         {
-            string aux;
-            oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
-            oFrmCadCidades.LimpaTxt();
-            oFrmCadCidades.BloquearTxt(); 
-            aux = oFrmCadCidades.btnSalvar.Text;
-            oFrmCadCidades.btnSalvar.Text = "Excluir";
-            oFrmCadCidades.ShowDialog();
-            oFrmCadCidades.DesbloquearTxt();
-            oFrmCadCidades.btnSalvar.Text = aux;
+            if (ListV.SelectedItems.Count == 0)
+            {
+                return;
+            }
+
+            ListViewItem item = ListV.SelectedItems[0];
+            int id = Convert.ToInt32(item.SubItems[0].Text);
+
+            DialogResult confirm = MessageBox.Show(
+                "Deseja realmente excluir esta cidade?",
+                "Confirmação",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (confirm == DialogResult.Yes)
+            {
+                Cidades oCidade = new Cidades();
+                oCidade.Codigo = id;
+
+                string msg = aCtrlCidades.Excluir(oCidade);
+                MessageBox.Show(msg);
+                CarregaLV();
+            }
+
+            //string aux;
+            //oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
+            //oFrmCadCidades.LimpaTxt();
+            //oFrmCadCidades.BloquearTxt();
+            //aux = oFrmCadCidades.btnSalvar.Text;
+            //oFrmCadCidades.btnSalvar.Text = "Excluir";
+            //oFrmCadCidades.ShowDialog();
+            //oFrmCadCidades.DesbloquearTxt();
+            //oFrmCadCidades.btnSalvar.Text = aux;
         }
         protected override void Alterar()
         {
@@ -50,7 +86,8 @@ namespace ProjetoELP4_Paisess
         }
         protected override void CarregaLV()
         {
-            foreach (var oCidade in CtrlCidades.TodosCidades)
+            ListV.Items.Clear();
+            foreach (var oCidade in aCtrlCidades.TodosCidades())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(oCidade.Codigo));
                 item.SubItems.Add(oCidade.Cidade);
@@ -71,6 +108,28 @@ namespace ProjetoELP4_Paisess
                 oCidade = (Cidades)obj;
             if (ctrl != null)
                 aCtrlCidades = (CtrlCidades)ctrl;
+            this.CarregaLV();
+
+        }
+
+        private void btnIncluir_Click(object sender, EventArgs e)
+        {
+            Incluir();
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            Alterar();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            Excluir();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            Pesquisar();
         }
     }
 }

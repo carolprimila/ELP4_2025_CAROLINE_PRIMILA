@@ -37,14 +37,21 @@
             // btnIncluir
             // 
             this.btnIncluir.Location = new System.Drawing.Point(454, 415);
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnAlterar
             // 
             this.btnAlterar.Location = new System.Drawing.Point(535, 415);
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
             this.btnExcluir.Location = new System.Drawing.Point(616, 415);
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // ListV
             // 
