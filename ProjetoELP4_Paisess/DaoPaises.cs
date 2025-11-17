@@ -103,7 +103,7 @@ namespace ProjetoELP4_Paisess
         }
         public override List<Paises> Pesquisar(string chave)
         {
-            string mSql = @"SELECT * FROM paises WHERE pais LIKE @chave OR sigla LIKE @chave OR ddi LIKE @chave OR moeda LIKE @chave ORDER BY pais";
+            string mSql = @"select p.* from paises p where p.pais like @chave or p.sigla like @chave or p.ddi like @chave or p.moeda like @chave order by p.pais";
 
             using (SqlConnection conn = new SqlConnection(cnn.ConnectionString))
             {

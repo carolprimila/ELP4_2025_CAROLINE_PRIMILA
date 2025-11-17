@@ -47,35 +47,25 @@ namespace ProjetoELP4_Paisess
             {
                 return;
             }
-            ListViewItem item = ListV.SelectedItems[0];
-            int id = Convert.ToInt32(item.SubItems[0].Text);
 
-            DialogResult confirm = MessageBox.Show(
-                "Deseja realmente excluir este país?",
-                "Confirmação",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning
-            );
+            var item = ListV.SelectedItems[0];
 
-            if (confirm == DialogResult.Yes)
-            {
-                Paises oPais = new Paises();
-                oPais.Codigo = id;
+            oPais.Codigo = Convert.ToInt32(item.SubItems[0].Text);
+            oPais.Pais = item.SubItems[1].Text;
+            oPais.Sigla = item.SubItems[2].Text;
+            oPais.Ddi = item.SubItems[3].Text;
+            oPais.Moeda = item.SubItems[4].Text;
 
-                string msg = aCtrlPaises.Excluir(oPais);
-                MessageBox.Show(msg);
-                CarregaLV();
-            }
-            //    string aux;
-            //oFrmCadPaises.ConhecaObj(oPais, aCtrlPaises);
-            //oFrmCadPaises.LimpaTxt();
-            //oFrmCadPaises.BloquearTxt();
-            //aux = oFrmCadPaises.btnSalvar.Text;
-            //oFrmCadPaises.btnSalvar.Text = "Excluir";
-            //oFrmCadPaises.ShowDialog();
-            //oFrmCadPaises.DesbloquearTxt();
-            //oFrmCadPaises.btnSalvar.Text = aux;
-            //this.CarregaLV();
+            string aux;
+            oFrmCadPaises.ConhecaObj(oPais, aCtrlPaises);
+            oFrmCadPaises.CarregaTxt();
+            oFrmCadPaises.BloquearTxt();
+            aux = oFrmCadPaises.btnSalvar.Text;
+            oFrmCadPaises.btnSalvar.Text = "Excluir";
+            oFrmCadPaises.ShowDialog();
+            oFrmCadPaises.DesbloquearTxt();
+            oFrmCadPaises.btnSalvar.Text = aux;
+            this.CarregaLV();
         }
         protected override void Alterar()
         {

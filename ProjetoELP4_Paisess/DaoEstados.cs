@@ -27,7 +27,6 @@ namespace ProjetoELP4_Paisess
         }
         public override string Salvar(object obj)
         {
-            //Estados oEstado = (Estados)obj;
             Estados oEstado = (Estados)obj;
             string mSql = "", mOk = "";
             if (oEstado.Codigo == 0)
@@ -78,35 +77,39 @@ namespace ProjetoELP4_Paisess
                 return lista;
             }
         }
-        public override Object CarregaObj(int chave)
+        public override object CarregaObj(int chave)
         {
-            string mSql = "select * from estados where id = 'chave'";
+            string mSql = "select * from estados where id = @id";
+
             using (SqlCommand cmd = new SqlCommand(mSql, cnn))
             {
+                cmd.Parameters.AddWithValue("@id", chave);
+
                 SqlDataReader reader = cmd.ExecuteReader();
-                Estados estados = new Estados();
+                Estados estado = null;
 
-                while (reader.Read())
+                if (reader.Read())
                 {
-                    Estados oEstado = new Estados();
-                    estados.Codigo = Convert.ToInt32(reader["id"]);
-                    estados.Estado = reader["estado"].ToString();
-                    estados.Uf = reader["uf"].ToString();
+                    estado = new Estados();
+                    estado.Codigo = Convert.ToInt32(reader["id"]);
+                    estado.Estado = reader["estado"].ToString();
+                    estado.Uf = reader["uf"].ToString();
 
-                    Paises paises = new Paises();
-                    paises.Codigo = Convert.ToInt32(reader["idpais"]);
-                    estados.OPais = paises;
-
-                    //lista.Add(oEstado);
+                    Paises pais = new Paises();
+                    pais.Codigo = Convert.ToInt32(reader["idpais"]);
+                    estado.OPais = pais;
                 }
 
                 reader.Close();
-                return estados;
+                return estado;
             }
         }
         public override List<Estados> Pesquisar(string chave)
         {
-            string mSql = @"SELECT e.*, p.id AS codPais, p.pais FROM estados e INNER JOIN paises p ON e.idPais = p.id WHERE e.estado LIKE @chave OR e.uf LIKE @chave OR p.pais LIKE @chave ORDER BY e.estado";
+            string mSql = @"SELECT e.*, p.pais 
+                    FROM estados e 
+                    INNER JOIN paises p ON e.idpais = p.id 
+                    ORDER BY e.id";
 
             using (SqlConnection conn = new SqlConnection(cnn.ConnectionString))
             {
@@ -126,7 +129,7 @@ namespace ProjetoELP4_Paisess
                         oEstado.Uf = reader["uf"].ToString();
 
                         Paises oPais = new Paises();
-                        oPais.Codigo = Convert.ToInt32(reader["codPais"]);
+                        oPais.Codigo = Convert.ToInt32(reader["idpais"]);
                         oPais.Pais = reader["pais"].ToString();
 
                         oEstado.OPais = oPais;

@@ -31,20 +31,20 @@ namespace ProjetoELP4_Paisess
 
         public override void Salvar()
         {
-            //if (MessageDlg("Confirma (S/N)") == "S")
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
             oEstado.OPais.Codigo = Convert.ToInt32(txtCodigoPais.Text);
-            //aCtrlEstados.Salvar(oEstado);
-            MessageBox.Show(aCtrlEstados.Salvar(oEstado));
+            //MessageBox.Show(aCtrlEstados.Salvar(oEstado));
         }
-
         public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oEstado.Codigo);
             this.txtEstado.Text = oEstado.Estado;
             this.txtUf.Text = oEstado.Uf;
+
+            txtCodigoPais.Text = oEstado.OPais?.Codigo.ToString() ?? "";
+            txtPais.Text = oEstado.OPais?.Pais ?? "";
         }
         public override void LimpaTxt()
         {
@@ -62,7 +62,6 @@ namespace ProjetoELP4_Paisess
             this.txtEstado.Enabled = true;
             this.txtUf.Enabled = true;
         }
-
         private void frmCadEstados_Load(object sender, EventArgs e)
         {
 
@@ -82,6 +81,20 @@ namespace ProjetoELP4_Paisess
         private void btnSair_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            if (btnSalvar.Text == "Excluir")
+            {
+                MessageBox.Show(aCtrlEstados.Excluir(oEstado));
+                this.Close();
+                return;
+            }
+
+            Salvar();
+            MessageBox.Show(aCtrlEstados.Salvar(oEstado));
+            this.Close();
         }
     }
 }

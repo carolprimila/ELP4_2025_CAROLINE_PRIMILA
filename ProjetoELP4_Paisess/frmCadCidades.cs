@@ -33,21 +33,23 @@ namespace ProjetoELP4_Paisess
             if (ctrl != null)
               aCtrlCidades = (CtrlCidades)ctrl;
         }
-
         public override void Salvar()
         {
+
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDDD.Text;
             oCidade.OEstado.Codigo = Convert.ToInt32(txtCodigoEstado.Text);
-            aCtrlEstados.Salvar(oCidade);
-            MessageBox.Show(aCtrlCidades.Salvar(oCidade));
+            //MessageBox.Show(aCtrlCidades.Salvar(oCidade));
         }
         public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oCidade.Codigo);
             this.txtCidade.Text = oCidade.Cidade;
             this.txtDDD.Text = oCidade.Ddd;
+
+            txtCodigoEstado.Text = oCidade.OEstado?.Codigo.ToString() ?? "";
+            txtEstado.Text = oCidade.OEstado?.Estado ?? "";
         }
         public override void LimpaTxt()
         {
@@ -65,7 +67,6 @@ namespace ProjetoELP4_Paisess
             this.txtCidade.Enabled = true;
             this.txtDDD.Enabled = true;
         }
-
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             string btnSair = ofrmConsEstados.btnSair.Text;
@@ -76,5 +77,19 @@ namespace ProjetoELP4_Paisess
             this.txtEstado.Text = oCidade.OEstado.Estado.ToString();
             ofrmConsEstados.btnSair.Text = btnSair;
         }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            if (btnSalvar.Text == "Excluir")
+            {
+                MessageBox.Show(aCtrlCidades.Excluir(oCidade));
+                this.Close();
+                return;
+            }
+            Salvar();
+            MessageBox.Show(aCtrlCidades.Salvar(oCidade));
+            this.Close();
+        }
     }
-}
+ }
+

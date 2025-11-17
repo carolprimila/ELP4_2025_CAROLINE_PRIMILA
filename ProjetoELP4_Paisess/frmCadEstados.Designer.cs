@@ -43,6 +43,7 @@
             // 
             this.btnSalvar.Location = new System.Drawing.Point(623, 415);
             this.btnSalvar.TabIndex = 5;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // txtCodigo
             // 

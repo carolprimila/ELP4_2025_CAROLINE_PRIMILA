@@ -27,14 +27,12 @@ namespace ProjetoELP4_Paisess
         }
         public override void Salvar()
         {
-            //if (MessageDlg("Confirma (S/N)") == "S)
             oPais.Codigo = Convert.ToInt32(txtCodigo.Text);
             oPais.Pais = txtPais.Text;
             oPais.Sigla = txtSigla.Text;
             oPais.Ddi = txtDDI.Text;
             oPais.Moeda = txtMoeda.Text;
-            this.Close();
-            MessageBox.Show(aCtrlPaises.Salvar(oPais));
+            //MessageBox.Show(aCtrlPaises.Salvar(oPais));
         }
         public override void CarregaTxt()
         {
@@ -74,7 +72,16 @@ namespace ProjetoELP4_Paisess
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-          
+            if (btnSalvar.Text == "Excluir")
+            {
+                MessageBox.Show(aCtrlPaises.Excluir(oPais));
+                this.Close();
+                return;
+            }
+
+            Salvar();
+            MessageBox.Show(aCtrlPaises.Salvar(oPais));
+            this.Close();
         }
     }
 }

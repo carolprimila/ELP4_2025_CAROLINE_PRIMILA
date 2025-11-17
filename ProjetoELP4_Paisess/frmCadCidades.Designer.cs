@@ -42,6 +42,7 @@
             // btnSalvar
             // 
             this.btnSalvar.TabIndex = 4;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // txtCodigo
             // 

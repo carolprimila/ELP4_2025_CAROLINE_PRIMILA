@@ -78,34 +78,34 @@ namespace ProjetoELP4_Paisess
                 return lista;
             }
         }
-        public override Object CarregaObj(int chave)
+        public override object CarregaObj(int chave)
         {
-            string mSql = "select * from cidades where id = 'chave'";
+            string mSql = "select * from cidades where id = @id";
+
             using (SqlCommand cmd = new SqlCommand(mSql, cnn))
             {
+                cmd.Parameters.AddWithValue("@id", chave);
+
                 SqlDataReader reader = cmd.ExecuteReader();
-                Cidades cidades = new Cidades();
-
-                while (reader.Read())
+                Cidades cidade = null;
+                if (reader.Read())
                 {
-                    //Cidades oCidade = new Cidades();
-                    cidades.Codigo = Convert.ToInt32(reader["id"]);
-                    cidades.Cidade = reader["cidade"].ToString();
-                    cidades.Ddd = reader["ddd"].ToString();
+                    cidade = new Cidades();
+                    cidade.Codigo = Convert.ToInt32(reader["id"]);
+                    cidade.Cidade = reader["cidade"].ToString();
+                    cidade.Ddd = reader["ddd"].ToString();
 
-                    Estados estados = new Estados();
-                    estados.Codigo = Convert.ToInt32(reader["idestado"]);
-                    cidades.OEstado = estados;
-
-                    //lista.Add(oCidade);
+                    Estados estado = new Estados();
+                    estado.Codigo = Convert.ToInt32(reader["idestado"]);
+                    cidade.OEstado = estado;
                 }
                 reader.Close();
-                return cidades;
+                return cidade;
             }
         }
         public override List<Cidades> Pesquisar(string chave)
         {
-            string mSql = @"SELECT c.*, e.id AS codEstado, e.estado FROM cidades c INNER JOIN estados e ON c.idEstado = e.id WHERE c.cidade LIKE @chave OR e.estado LIKE @chave ORDER BY c.cidade";
+            string mSql = @"select c.*, e.id as codestado, e.estado from cidades c inner join estados e on c.idestado = e.id where c.cidade like @chave or e.estado like @chave order by c.cidade";
 
             using (SqlConnection conn = new SqlConnection(cnn.ConnectionString))
             {

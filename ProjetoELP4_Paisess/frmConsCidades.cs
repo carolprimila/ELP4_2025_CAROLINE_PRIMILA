@@ -46,36 +46,27 @@ namespace ProjetoELP4_Paisess
             {
                 return;
             }
-
             ListViewItem item = ListV.SelectedItems[0];
-            int id = Convert.ToInt32(item.SubItems[0].Text);
+            oCidade.Codigo = Convert.ToInt32(item.SubItems[0].Text);
+            oCidade.Cidade = item.SubItems[1].Text;
+            oCidade.Ddd = item.SubItems[2].Text;
 
-            DialogResult confirm = MessageBox.Show(
-                "Deseja realmente excluir esta cidade?",
-                "Confirmação",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning
-            );
+            if (oCidade.OEstado == null)
+                oCidade.OEstado = new Estados();
 
-            if (confirm == DialogResult.Yes)
-            {
-                Cidades oCidade = new Cidades();
-                oCidade.Codigo = id;
+            oCidade.OEstado.Codigo = Convert.ToInt32(item.SubItems[3].Text);
+            oCidade.OEstado.Estado = item.SubItems[4].Text;
 
-                string msg = aCtrlCidades.Excluir(oCidade);
-                MessageBox.Show(msg);
-                CarregaLV();
-            }
-
-            //string aux;
-            //oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
-            //oFrmCadCidades.LimpaTxt();
-            //oFrmCadCidades.BloquearTxt();
-            //aux = oFrmCadCidades.btnSalvar.Text;
-            //oFrmCadCidades.btnSalvar.Text = "Excluir";
-            //oFrmCadCidades.ShowDialog();
-            //oFrmCadCidades.DesbloquearTxt();
-            //oFrmCadCidades.btnSalvar.Text = aux;
+            string aux;
+            oFrmCadCidades.ConhecaObj(oCidade, aCtrlCidades);
+            oFrmCadCidades.CarregaTxt();
+            oFrmCadCidades.BloquearTxt();
+            aux = oFrmCadCidades.btnSalvar.Text;
+            oFrmCadCidades.btnSalvar.Text = "Excluir";
+            oFrmCadCidades.ShowDialog();
+            oFrmCadCidades.DesbloquearTxt();
+            oFrmCadCidades.btnSalvar.Text = aux;
+            this.CarregaLV();
         }
         protected override void Alterar()
         {

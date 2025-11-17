@@ -47,35 +47,28 @@ namespace ProjetoELP4_Paisess
                 return;
             }
 
-            // Pega o id do item selecionado
-            ListViewItem item = ListV.SelectedItems[0];
-            int id = Convert.ToInt32(item.SubItems[0].Text);
+            var item = ListV.SelectedItems[0];
 
-            DialogResult confirm = MessageBox.Show(
-                "Deseja realmente excluir este estado?",
-                "Confirmação",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning
-            );
+            oEstado.Codigo = Convert.ToInt32(item.SubItems[0].Text);
+            oEstado.Estado = item.SubItems[1].Text;
+            oEstado.Uf = item.SubItems[2].Text;
 
-            if (confirm == DialogResult.Yes)
-            {
-                Estados oEstado = new Estados();
-                oEstado.Codigo = id;
+            if (oEstado.OPais == null)
+                oEstado.OPais = new Paises();
 
-                string msg = aCtrlEstados.Excluir(oEstado);
-                MessageBox.Show(msg);
-                CarregaLV();
-            }
-            //string aux;
-            //oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
-            //oFrmCadEstados.LimpaTxt();
-            //oFrmCadEstados.BloquearTxt();
-            //aux = oFrmCadEstados.btnSalvar.Text;
-            //oFrmCadEstados.btnSalvar.Text = "Excluir";
-            //oFrmCadEstados.ShowDialog();
-            //oFrmCadEstados.DesbloquearTxt();
-            //oFrmCadEstados.btnSalvar.Text = aux;
+            oEstado.OPais.Codigo = Convert.ToInt32(item.SubItems[3].Text);
+            oEstado.OPais.Pais = item.SubItems[4].Text;
+
+            string aux;
+            oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
+            oFrmCadEstados.CarregaTxt();
+            oFrmCadEstados.BloquearTxt();
+            aux = oFrmCadEstados.btnSalvar.Text;
+            oFrmCadEstados.btnSalvar.Text = "Excluir";
+            oFrmCadEstados.ShowDialog();
+            oFrmCadEstados.DesbloquearTxt();
+            oFrmCadEstados.btnSalvar.Text = aux;
+            this.CarregaLV();
         }
         protected override void Alterar()
         {
